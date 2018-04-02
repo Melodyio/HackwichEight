@@ -26,7 +26,7 @@ class ViewController: UIViewController {
         
         centerMapOnLocation(location: initialLocation)
         
-        //create a Restaurant onject and set all the arguments to each of the three parameters
+        //create a Restaurant object and set all the arguments to each of the three parameters
         let restaurantOne = Restaurant(title: "Kalapawai", type: "American", coordinate:
             CLLocationCoordinate2D(latitude: 21.346470, longitude: -158.080098))
         mapView.addAnnotation(restaurantOne)
